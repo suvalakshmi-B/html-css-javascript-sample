@@ -1,0 +1,294 @@
+body {
+    margin: 0px;
+    background: lavenderblush;
+}
+
+.container {
+    padding-top: 20px;
+}
+
+.semi-cnct {
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.max-width {
+    max-width: 970px;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.head-list {
+    padding-left: 14px;
+}
+
+.head-list li,
+.side-list li {
+    list-style-type: none;
+    padding-left: 5px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.img-cnct {
+    max-width: 50px;
+    margin: auto;
+}
+
+.img-cnct img {
+    width: auto;
+    max-width: 15vh;
+    margin-top: -20px;
+}
+.drp-dwn{
+    position: relative;
+    display: inline-block;
+}
+.drp-btn{
+    background-color:lavenderblush ;
+    color: black;
+    padding: 5px;
+    outline: none;
+    border: none;
+}
+.drp-dwn-cnct{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,.2);
+}
+.drp-dwn-cnct a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.drp-dwn-cnct p,h3{
+    margin: 0px;
+    padding: 0px;
+}
+.drp-dwn-cnct a:hover{
+    background-color: #ddd;
+}
+.drp-dwn:hover .drp-dwn-cnct{
+    display: block;
+}
+.drp-dwn:hover .drp-btn{
+    background-color: #dee3de;
+    margin:0px;
+}
+
+
+.lists {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.lists li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.txt-1 {
+    max-width: 800px;
+    margin: auto;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.txt-1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.txt-1 a:hover {
+    color: brown;
+}
+
+.six-lists {
+    max-width: 500px;
+    margin: auto;
+}
+
+.s-l {
+    background-color: rgb(34, 33, 33);
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.s-l:hover {
+    background-color: rgb(82, 81, 81);
+}
+
+.cncts {
+    text-align: center;
+}
+
+.cncts h3 {
+    font-size: 24px;
+    margin: 0px;
+    color: rgb(28, 27, 27);
+}
+
+.cncts p {
+    font-size: 13px;
+    color: rgb(48, 48, 48);
+}
+
+
+
+
+.popup {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(7, 0, 0, 0.5);
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.popup-sec {
+    width: 400px;
+    background: rgb(139, 83, 187);
+    position: relative;
+    padding: 40px;
+}
+
+.popup-sec p {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(150, 14, 14);
+    box-shadow: 2px 5px 10px 0px rgb(228, 107, 55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    top: -30px;
+    right: -10px;
+    cursor: pointer;
+    color: white;
+}
+
+.popup-sec h1,
+h2 {
+    color: white;
+}
+
+.popup-sec h1 {
+    font-size: 60px;
+    margin: 0px;
+    color: rgb(150, 14, 14);
+    text-align: center;
+}
+
+.popup-sec h2 {
+    font-size: 18px;
+    text-align: justify;
+    margin: 0;
+    text-align: center;
+}
+
+.popup.showpopup {
+    display: flex;
+}
+
+.bn {
+    max-width: 180px;
+    margin: auto;
+}
+
+.g-bn {
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 33px;
+    padding-right: 33px;
+    margin-left: 10pxs;
+    background-color: rgb(150, 14, 14);
+    border: none;
+    outline: none;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.g-bn:hover {
+    background-color: rgb(111, 7, 7);
+}
+
+.grl {
+    background-image: url(./bg.jpeg);
+    object-fit: cover;
+    width: 90%;
+    height: 700px;
+    margin-right: 0px;
+    padding: 0px;
+    max-width: 600vh;
+    position: absolute;
+   background-repeat: no-repeat;
+}
+
+.grl-cnct {
+    position: relative;
+    margin-top: 500px;
+    text-align: center;
+    color: white;
+}
+
+.grl-cnct h3 {
+    font-size: 45px;
+    margin: 0px;
+}
+
+.grl-cnct p {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.sn {
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.f-s{
+    list-style-type: none;
+    text-align: center;
+}
+.f-s img{
+    max-width: 20vh;
+    width: auto;
+    height:auto;
+    border-radius: 30%;
+    object-fit: cover;
+}
+.f-s li{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.li-cnct p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.f-s li p1{
+  color: rgb(95, 93, 93);
+  font-weight: 600;
+}

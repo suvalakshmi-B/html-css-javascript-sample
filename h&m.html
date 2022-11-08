@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H&M</title>
+    <link rel="stylesheet" href="./popup.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="semi-cnct d-flex max-width">
+            <div class="header">
+                <ul class="head-list d-flex">
+                    <li>Custom Services</li>
+                    <li>Newsletter</li>
+                    <li>Find a store</li>
+                </ul>
+
+            </div>
+            <ul class="side-list d-flex">
+                <li>Sign in</li>
+                <li>Favourites</li>
+                <li>Shopping bag</li>
+            </ul>
+        </div>
+    </div>
+    <div class="img-cnct">
+        <img src="./h&m.png" alt="h&m">
+    </div>
+    <div class="container max-width ">
+        <div class="lists d-flex">
+           <div class="drp-dwn">
+            <button type="button"class="drp-btn">Ladies</button>
+            <div class="drp-dwn-cnct">
+                <a href="#"><h3>New Arrivals</h3></a>
+                <a href="#"> <p>view all</p> </a>
+                <a href="#"> <p> clothes</p></a>
+                <div class="n-c">
+                    <a href="#"><h3>Trending Now</h3></a>
+                    <a href="#"> <p>Confident feminity</p></a>
+                <a href="#"><p>Fall Classics</p></a>
+                <a href="#"><p>Going Out Tops</p></a>
+                </div>
+                <div class="n-c1">
+                    <a href="#"><h3>shop by product</h3></a>
+                    <a href="#"><p>view all</p>
+                    <a href="#"><p>Tops & T-Shirts</p></a>
+                        <a href="#"><p>Shirts & Blouses</p></a>
+                        <a href="#"><p>Dresses</p></a>
+                        <a href="#"><p>Trousers</p></a>
+                        <a href="#"><p>Sweatshirts & Hoodies</p></a>
+                        <a href="#"><p>Knitwear</p></a>
+                        <a href="#"><p>Jeans</p></a>
+                        <a href="#"><p>Accesories</p></a>
+                        <a href="#"><p>Shoes</p></a>
+                        <a href="#"><p>Nightwear</p></a>
+                </div>
+            </div>
+           </div>
+    </div>
+    <div class="container">
+        <div class="txt-1 d-flex">
+            <a href="#">
+                <p>Free shipping for members above Rs 999. Join Now!</p>
+            </a>
+            <a href="#">
+                <p>Download the H&M App</p>
+            </a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="cncts ">
+            <h3>Festive Favourites</h3>
+            <p>Get into the festive spirit</p>
+        </div>
+        <div class="cnct-lists">
+            <ul class="six-lists lists d-flex">
+                <li><button type="button" class="s-l"> Women</button></li>
+                <li><button type="button" class="s-l"> Men</button></li>
+                <li><button type="button" class="s-l"> Kids</button></li>
+                <li><button type="button" class="s-l"> Baby</button></li>
+                <li><button type="button" class="s-l"> Divided</button></li>
+                <li><button type="button" class="s-l"> Home</button></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="li-cnct max-width">
+            <p>Categories you might like</p>
+            <div class="li-img">
+                <ul class="f-s d-flex">
+                    <li>
+                        <img src="./assests/tshirts.webp" alt="tshirts">
+                        <p1>Ladies</p1><br>
+                        <p2>Tops & T-Shirts</p2>
+                    </li>
+                    <li><img src="./assests/trousers.webp" alt="tshirts">
+                        <p1>Ladies</p1><br>
+                        <p2>Trousers</p2>
+                    </li>
+                    </li>
+                    <li><img src="./assests/jumpsuit.webp" alt="tshirts">
+                        <p1>Ladies</p1><br>
+                        <p2>Jumpsuits</p2>
+                    </li>
+                    </li>
+                    <li><img src="./assests/hoodies.webp" alt="tshirts">
+                        <p1>Ladies</p1><br>
+                        <p2>Sweaters</p2>
+                    </li>
+                    </li>
+                    <li><img src="./assests/shirts.webp" alt="tshirts">
+                        <p1>Ladies</p1><br>
+                        <p2>shirts & Blouses</p2>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container max-width">
+        <div class="grl">
+            <div class="grl-cnct">
+                <h3>Friends to wear</h3>
+                <p>Start (and stay) smart and stylish</p>
+                <button onclick="openpopup()" class="sn">Tap here</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="popup" id="popup1">
+        <div class="popup-sec">
+            <p onclick="hidepopup()">x</p>
+            <h2>We handpickup products from 1000s brands to deliver up to</h2>
+            <h1>90% OFF</h1>
+            <h2>the coolest tech on the web</h2>
+            <div class="bn">
+                <button type="button" class="g-bn">GET THE DEALS</button>
+            </div>
+        </div>
+        <script>
+            let element = document.getElementById('popup1');
+            function openpopup() {
+                element.classList.add('showpopup');
+            }
+            function hidepopup() {
+                element.classList.remove('showpopup');
+            }
+        </script>
+</body>
+
+</html>
